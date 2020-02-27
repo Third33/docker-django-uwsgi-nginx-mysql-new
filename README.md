@@ -1,14 +1,16 @@
-# DJANGO
+# DJANGO, UWSGI, PYTHON, MYSQL, NGINX in DOCKER
 
 
 ## Dependence
-
+* [Docker](https://www.docker.com/) 19.03.5
+* [Docker-compose](https://docs.docker.com/compose/) 2.4
 * [Python](https://www.python.org/) 3.7
 * [Django](https://www.djangoproject.com/) 3.0.3
 
 ## Get Started
 
 ```
+$ cd /*your_app_dir*/
 $ docker-compose up --build
 ```
 
